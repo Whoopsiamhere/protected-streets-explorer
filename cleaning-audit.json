@@ -1,0 +1,42 @@
+{
+  "source": "https://data.cityofnewyork.us/Transportation/Protected-Streets-Block-Dataset-/wyih-3nzf",
+  "retrieved": "2026-09-23",
+  "source_last_updated": "2026-09-21",
+  "reference_date": "2026-09-23",
+  "raw_rows": 24435,
+  "original_fields": 9,
+  "exact_duplicates_removed": 1,
+  "deduplicated_rows": 24434,
+  "missing_by_field": {
+    "the_geom": 0,
+    "oftcode": 0,
+    "geoborough": 0,
+    "onstreetna": 0,
+    "fromstreet": 0,
+    "tostreetna": 0,
+    "dateprotec": 0,
+    "dateprot_1": 0,
+    "shape_stle": 0
+  },
+  "expired_excluded": 30,
+  "future_excluded": 0,
+  "invalid_excluded": 0,
+  "active_rows": 24404,
+  "unique_oft_codes_after_dedup": 24408,
+  "five_calendar_year_matches": 24434,
+  "borough_counts": {
+    "M": 2869,
+    "X": 3013,
+    "B": 6741,
+    "S": 3620,
+    "Q": 8161
+  },
+  "expiring_by_2027_09_23": {
+    "M": 731,
+    "X": 630,
+    "B": 1267,
+    "S": 783,
+    "Q": 1603
+  },
+  "geometry_note": "Coordinates rounded to six decimal places for display only. Original coordinates remain in raw snapshot and cleaned CSV. Length field not converted or analyzed."
+}
